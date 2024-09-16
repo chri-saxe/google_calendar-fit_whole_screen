@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Google calendar : Fit whole screen",
+    "description": "Makes Google Calendar fit in your entire screen, instead of having to scroll.",
+    "version": "1.0",
+
+    "content_scripts": [
+        {
+            "css": ["content.css"],
+            "matches": ["https://calendar.google.com/calendar/*"]
+        }
+    ]
+}
