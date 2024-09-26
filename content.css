@@ -2,6 +2,10 @@ body{
     height: calc(100vh + 200px) !important;
     overflow: visible !important;
 }
+header {
+    display: none !important;
+}
+
 .gb_kd.gb_od {
     display: none !important;
 }
